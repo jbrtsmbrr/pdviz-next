@@ -1,0 +1,9 @@
+type Book {
+  title: String
+  year: String
+  author: Author
+}
+
+type Query {
+  books: [Book]
+}
